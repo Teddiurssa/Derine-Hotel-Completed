@@ -131,7 +131,8 @@ section{
         font-size: 18px;
     }
 	.blog-text p{
-	padding: 0 10px;
+	width:80%;
+	/*padding: 0 10px;*/
         font-size: 12px;
     }
     .blog-text{
