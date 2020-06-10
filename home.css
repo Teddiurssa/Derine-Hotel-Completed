@@ -121,9 +121,9 @@ section{
     }
     .blog-text1{
         position: relative;
-        width: 80%;
+        width: 100%;
         text-align: jusify;
-        margin: 10px auto;
+        margin: 10px 0;
      
     }
     .blog-text1 h1{
