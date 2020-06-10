@@ -111,10 +111,10 @@ section{
     }
     .blog-card1{
       
-        width: 85%;
+        width: 90%;
         display:grid;
         overflow: hidden;
-        margin: 20px 10px 20px auto;
+        margin: 20px auto;
     }
     .blog-text1{
         position: relative;
@@ -132,7 +132,7 @@ section{
     }
 	.blog-text p{
 	padding: 0 10px;
-        font-size: 15px;
+        font-size: 12px;
     }
     .blog-text{
         position: relative;
