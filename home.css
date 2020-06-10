@@ -156,5 +156,8 @@ section{
 	.quote-text{
     position: relative;
     width: 80%;
-    left: 50px;
-
+    left: 45px;
+	}
+	.quote-text h4{
+	  font-size: 18px;
+	}
