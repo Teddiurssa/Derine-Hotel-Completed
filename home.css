@@ -128,7 +128,10 @@ section{
         text-align: center;
     }
     .blog-text h1{
-        font-size: 20px;
+        font-size: 18px;
+    }
+	.blog-text p{
+        font-size: 15px;
     }
     .blog-text{
         position: relative;
