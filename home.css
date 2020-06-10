@@ -99,7 +99,7 @@ section{
         width:100vw;
     }
     .header-image img{
-        width: 100%;
+        width: 90%;
         left: -1px;
         z-index: -1;
         }
