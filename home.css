@@ -131,9 +131,9 @@ section{
         font-size: 18px;
     }
 	.blog-text p{
-	width:80%;
+	width:90%;
 	/*padding: 0 10px;*/
-        font-size: 12px;
+        font-size: 15px;
     }
     .blog-text{
         position: relative;
