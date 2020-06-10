@@ -123,6 +123,7 @@ section{
         position: relative;
         width: 100%;
         text-align: jusify;
+	    padding:0;
         margin: 10px 0;
      
     }
