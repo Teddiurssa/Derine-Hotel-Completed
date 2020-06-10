@@ -99,7 +99,7 @@ section{
         width:100vw;
     }
     .header-image img{
-        width: 90%;
+        width: 100%;
         left: -1px;
         z-index: -1;
         }
@@ -109,6 +109,9 @@ section{
         margin: 20px auto;
         overflow: hidden; 
     }
+	.blog-card img{
+		width:100%;
+	}
     .blog-card1{
       
         width: 90%;
