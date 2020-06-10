@@ -111,10 +111,10 @@ section{
     }
     .blog-card1{
       
-        width: 90%;
+        width: 85%;
         display:grid;
         overflow: hidden;
-        margin: 20px auto;
+        margin: 20px 10px 20px auto;
     }
     .blog-text1{
         position: relative;
