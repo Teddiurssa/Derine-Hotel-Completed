@@ -121,7 +121,7 @@ section{
     }
     .blog-text1{
         position: relative;
-        width: 65%;
+        width: 80%;
         text-align: jusify;
         margin: 10px auto;
      
@@ -140,7 +140,7 @@ section{
     }
     .blog-text{
         position: relative;
-        width: 80%;
+        width: 50%;
         right: 180px;
         
         margin: 10px 0 5px auto;
