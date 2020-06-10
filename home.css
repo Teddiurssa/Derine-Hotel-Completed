@@ -161,3 +161,6 @@ section{
 	.quote-text h4{
 	  font-size: 18px;
 	}
+      .quote-text p{
+        font-size: 12px;
+    }
