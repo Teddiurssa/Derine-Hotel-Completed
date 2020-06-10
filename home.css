@@ -153,4 +153,8 @@ section{
     .hashtag h1{
         font-size: 30px;
     }
+	.quote-text{
+    position: relative;
+    width: 80%;
+    left: 120px;
 
