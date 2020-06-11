@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.president{
+    background-color: #002c5c;
+    margin-left: -35px;
+    padding: 0;
+}
+.nav-item:hover{
+	border-bottom: 5px solid #002C5C;
+}
+.blue{
+    background-color: #002c5c;
+}
+section{
+    font-family: 'Open Sans', sans-serif;
+}

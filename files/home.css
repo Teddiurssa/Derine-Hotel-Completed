@@ -1,0 +1,169 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+
+.nav-item:hover{
+	border-bottom: 5px solid #002C5C;
+}
+/* ----------------nav bar--------------------- */
+
+body{
+	width: 100vw;
+	overflow: auto;
+	color: #002C5C;
+}
+.header-image img{
+/* position: absolute; */
+width: 100vw;
+height: 65%;
+left: -1px;
+z-index: -1;
+}
+section{
+    width: 80%;
+    height: 50%;
+    margin: 0 auto;
+}
+.blog-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.blog-text1{
+    color:#002C5C;
+    flex: 1;
+    padding: 0 60px;
+}
+
+.first-image{
+    flex: 1;
+}
+.blog-card1{
+    margin-top: 30px;
+    background-color: #006075;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn {
+    background-color: #F2F2F2;
+    border-radius: 2px;
+    color: #006075;
+    font-weight: bold;
+}
+
+.blog-text{
+    flex: 1;
+    margin: 0 auto;
+    padding-inline-start: 29px;
+    color: #F2F2F2;
+}
+.second-image{
+    flex: 1;
+}
+
+#quote{
+    margin-top: 50px;
+    background: url(./images/bottom-bground.png);
+    padding-top: 110px;
+    padding-bottom: 80px;
+    color:#F2F2F2;
+}
+.quote-text{
+    position: relative;
+    width: 45%;
+    left: 120px;
+}
+.date{
+    position: relative;
+    float: right;
+    right: 100px;
+}
+.hashtag{
+    background-color: #002C5C;
+    text-align: center;
+    padding: 20px;
+    color: #F2F2F2;
+}
+.hashtag h1{
+    font-size: 50px;
+}
+
+@media screen and (max-width: 768px){
+    
+    section{
+        width:100vw;
+    }
+    .header-image img{
+        width: 100%;
+        left: -1px;
+        z-index: -1;
+        }
+    .blog-card{
+        width: 90%;
+        display: grid;
+        margin: 20px auto;
+        overflow: hidden; 
+    }
+	.blog-card img{
+		width:100%;
+	}
+    .blog-card1{
+      
+        width: 90%;
+        display:grid;
+        overflow: hidden;
+        margin: 20px auto;
+    }
+    .blog-text1{
+        position: relative;
+        width: 100%;
+        text-align: jusify;
+	    padding:0;
+        margin: 10px 0;
+     
+    }
+    .blog-text1 h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    .blog-text h1{
+        font-size: 18px;
+    }
+	.blog-text p{
+	width:90%;
+	/*padding: 0 10px;*/
+        font-size: 15px;
+    }
+    .blog-text{
+        position: relative;
+        width: 50%;
+        right: 180px;
+        
+        margin: 10px 0 5px auto;
+     
+    }
+    .btn{
+        margin-bottom: 10px;
+    }
+    .hashtag h1{
+        font-size: 30px;
+    }
+	.quote-text{
+    position: relative;
+    width: 80%;
+    left: 45px;
+	}
+	.quote-text h4{
+	  font-size: 18px;
+	}
+      .quote-text p{
+        font-size: 12px;
+    }
+	.date{
+		font-size:12px;
+	}
